@@ -17,7 +17,7 @@ const cinzel = Cinzel({
 
 export const metadata: Metadata = {
   title: 'Eduarda Santana Advocacia | Direito Civil e Família',
-  description: 'Escritório boutique especializado em Direito Civil e Direito de Família. Atendimento personalizado e estratégias jurídicas sob medida para cada cliente.',
+  description: 'Escritório especializado em Direito Civil e Direito de Família. Atendimento personalizado e estratégias jurídicas sob medida para cada cliente.',
   generator: 'v0.app',
   keywords: ['advogada', 'direito civil', 'direito de família', 'divórcio', 'inventário', 'guarda', 'contratos'],
   icons: {
