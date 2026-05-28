@@ -20,7 +20,7 @@ export function Footer() {
               </div>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-md">
-              Escritório boutique especializado em Direito Civil e Direito de Família,
+              Escritório especializado em Direito Civil e Direito de Família,
               oferecendo atendimento personalizado e estratégias jurídicas sob medida.
             </p>
           </div>
