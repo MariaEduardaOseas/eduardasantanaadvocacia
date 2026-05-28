@@ -114,7 +114,8 @@ export function ContactSection() {
           {/* CTA Column */}
           <div className="flex items-center justify-center">
 
-            <div className="bg-background border border-border px-8 py-16 lg:px-12 w-full flex items-center justify-center">
+            <div className="w-full flex items-center justify-center">
+
 
               <a
                 href={whatsappLink}
