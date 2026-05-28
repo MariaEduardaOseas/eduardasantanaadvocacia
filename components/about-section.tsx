@@ -39,30 +39,4 @@ export function AboutSection() {
               </p>
             </div>
 
-            {/* Bloco inferior */}
-            <div className="grid grid-cols-3 gap-8 mt-12 pt-12 border-t border-border">
-              <div>
-                <span className="text-xs tracking-wider uppercase text-muted-foreground">
-                  Advocacia de<br />Excelência
-                </span>
-              </div>
-
-              <div>
-                <span className="text-xs tracking-wider uppercase text-muted-foreground">
-                  Condução<br />Estratégica
-                </span>
-              </div>
-
-              <div>
-                <span className="text-xs tracking-wider uppercase text-muted-foreground">
-                  Compromisso<br />Profissional
-                </span>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-  )
-}
+           
