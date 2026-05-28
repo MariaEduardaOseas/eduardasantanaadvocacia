@@ -1,8 +1,8 @@
-```tsx
 import { Phone, Mail, Clock, Video } from "lucide-react"
 
 export function ContactSection() {
   const whatsappNumber = "5534998431146"
+
   const whatsappMessage = encodeURIComponent(
     "Olá, Dra. Eduarda! Gostaria de agendar uma consulta."
   )
@@ -12,6 +12,7 @@ export function ContactSection() {
   return (
     <section id="contato" className="py-24 lg:py-32 bg-card">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
+
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
 
           {/* Content Column */}
@@ -20,6 +21,7 @@ export function ContactSection() {
             {/* Section Label */}
             <div className="flex items-center gap-4 mb-6">
               <div className="w-12 h-px bg-primary" />
+
               <span className="text-xs tracking-[0.3em] uppercase text-primary">
                 Contato
               </span>
@@ -38,6 +40,7 @@ export function ContactSection() {
             {/* Contact Info */}
             <div className="space-y-6">
 
+              {/* Atendimento */}
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center text-primary">
                   <Video size={20} strokeWidth={1.5} />
@@ -54,6 +57,7 @@ export function ContactSection() {
                 </div>
               </div>
 
+              {/* Telefone */}
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center text-primary">
                   <Phone size={20} strokeWidth={1.5} />
@@ -70,6 +74,7 @@ export function ContactSection() {
                 </div>
               </div>
 
+              {/* Email */}
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center text-primary">
                   <Mail size={20} strokeWidth={1.5} />
@@ -86,6 +91,7 @@ export function ContactSection() {
                 </div>
               </div>
 
+              {/* Horário */}
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center text-primary">
                   <Clock size={20} strokeWidth={1.5} />
@@ -138,4 +144,3 @@ export function ContactSection() {
     </section>
   )
 }
-```
