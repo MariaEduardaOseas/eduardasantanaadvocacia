@@ -74,7 +74,7 @@ export function Footer() {
             © {currentYear} Eduarda Santana Advocacia. Todos os direitos reservados.
           </p>
           <p className="text-xs text-muted-foreground">
-            OAB/SP 123.456
+            OAB/MG 249.027
           </p>
         </div>
       </div>
