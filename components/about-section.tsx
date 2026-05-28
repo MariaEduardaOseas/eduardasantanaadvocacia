@@ -15,12 +15,16 @@ export function AboutSection() {
               <div className="absolute -bottom-4 -right-4 w-full h-full border border-primary/30 -z-10" />
             </div>
 
-            {/* Experience badge */}
-            <div className="absolute -bottom-8 -left-4 lg:-left-8 bg-background p-6 lg:p-8 border border-border">
-              <span className="block font-[var(--font-cormorant)] text-4xl lg:text-5xl text-primary font-semibold">15+</span>
-              <span className="text-xs tracking-widest uppercase text-muted-foreground">Anos de<br />Experiência</span>
-            </div>
-          </div>
+            {/* Signature badge */}
+<div className="absolute -bottom-8 -left-4 lg:-left-8 bg-background p-6 lg:p-8 border border-border">
+  <span className="block font-[var(--font-cormorant)] text-3xl lg:text-4xl text-primary font-semibold leading-none">
+    ES
+  </span>
+
+  <span className="mt-2 block text-[10px] tracking-[0.3em] uppercase text-muted-foreground leading-relaxed">
+    Advocacia<br />& Consultoria
+  </span>
+</div>
 
           {/* Content Column */}
           <div className="order-1 lg:order-2">
@@ -62,24 +66,38 @@ export function AboutSection() {
   </p>
 </div>
 
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-8 mt-12 pt-12 border-t border-border">
-              <div>
-                <span className="block font-[var(--font-cormorant)] text-3xl lg:text-4xl text-primary font-semibold">500+</span>
-                <span className="text-xs tracking-wider uppercase text-muted-foreground">Casos<br />Resolvidos</span>
-              </div>
-              <div>
-                <span className="block font-[var(--font-cormorant)] text-3xl lg:text-4xl text-primary font-semibold">98%</span>
-                <span className="text-xs tracking-wider uppercase text-muted-foreground">Índice de<br />Sucesso</span>
-              </div>
-              <div>
-                <span className="block font-[var(--font-cormorant)] text-3xl lg:text-4xl text-primary font-semibold">OAB</span>
-                <span className="text-xs tracking-wider uppercase text-muted-foreground">São Paulo<br />123.456</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+            {/* Institutional Highlights */}
+<div className="grid grid-cols-3 gap-8 mt-12 pt-12 border-t border-border">
+  <div>
+    <span className="block font-[var(--font-cormorant)] text-2xl lg:text-3xl text-primary font-semibold">
+      Estratégia
+    </span>
+
+    <span className="text-xs tracking-wider uppercase text-muted-foreground">
+      Jurídica
+    </span>
+  </div>
+
+  <div>
+    <span className="block font-[var(--font-cormorant)] text-2xl lg:text-3xl text-primary font-semibold">
+      Atuação
+    </span>
+
+    <span className="text-xs tracking-wider uppercase text-muted-foreground">
+      Personalizada
+    </span>
+  </div>
+
+  <div>
+    <span className="block font-[var(--font-cormorant)] text-2xl lg:text-3xl text-primary font-semibold">
+      Ética
+    </span>
+
+    <span className="text-xs tracking-wider uppercase text-muted-foreground">
+      & Discrição
+    </span>
+  </div>
+</div>
     </section>
   )
 }
