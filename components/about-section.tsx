@@ -39,4 +39,10 @@ export function AboutSection() {
               </p>
             </div>
 
-           
+          </div>
+
+        </div>
+      </div>
+    </section>
+  )
+}
