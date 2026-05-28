@@ -84,14 +84,7 @@ export function ContactSection() {
 
           {/* CTA Column */}
           <div className="flex flex-col justify-center">
-            <div className="bg-background p-8 lg:p-12 border border-border">
-              <h3 className="font-[var(--font-cormorant)] text-2xl lg:text-3xl font-medium text-foreground mb-4">
-              
-              </h3>
-              <p className="text-sm text-muted-foreground leading-relaxed mb-8">
-                
-          
-              </p>
+            <div className="bg-background min-h-[420px] flex items-center justify-center p-8 lg:p-12 border border-border">
 
               {/* WhatsApp CTA Button */}
               <a
@@ -106,27 +99,6 @@ export function ContactSection() {
                 Chamar no WhatsApp
               </a>
 
-              <p className="text-xs text-center text-muted-foreground mt-6">
-                
-              </p>
-
-              {/* Trust badges */}
-              <div className="flex items-center justify-center gap-6 mt-8 pt-8 border-t border-border">
-                <div className="text-center">
-                  <span className="block text-xs text-muted-foreground">Sigilo</span>
-                  <span className="text-xs text-primary tracking-wider">Garantido</span>
-                </div>
-                <div className="w-px h-8 bg-border" />
-                <div className="text-center">
-                  <span className="block text-xs text-muted-foreground">Consulta</span>
-                  <span className="text-xs text-primary tracking-wider">Online</span>
-                </div>
-                <div className="w-px h-8 bg-border" />
-                <div className="text-center">
-                  <span className="block text-xs text-muted-foreground">Primeira</span>
-                  <span className="text-xs text-primary tracking-wider">Gratuita</span>
-                </div>
-              </div>
             </div>
           </div>
         </div>
