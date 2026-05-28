@@ -35,24 +35,32 @@ export function AboutSection() {
               Compromisso com a excelência jurídica
             </h2>
 
-            {/* Description */}
-            <div className="space-y-6 text-muted-foreground leading-relaxed">
-              <p>
-                Com mais de 15 anos de experiência em Direito Civil e Direito de Família,
-                ofereço um atendimento personalizado e estratégico para cada cliente.
-              </p>
-              <p>
-                Minha abordagem combina profundo conhecimento técnico com sensibilidade
-                para compreender as particularidades de cada caso, especialmente em
-                questões familiares que exigem delicadeza e discrição.
-              </p>
-              <p>
-                Formada pela Universidade de São Paulo (USP), com especialização em
-                Direito de Família e Sucessões pela PUC-SP, atuo de forma consultiva
-                e contenciosa, sempre buscando as melhores soluções para proteger
-                os interesses dos meus clientes.
-              </p>
-            </div>
+           {/* Description */}
+<div className="space-y-6 text-muted-foreground leading-relaxed">
+  <p>
+    Eduarda Santana é advogada com atuação nas áreas de Direito Civil e Direito
+    de Família, oferecendo assessoria jurídica estratégica, personalizada e
+    pautada na excelência técnica.
+  </p>
+
+  <p>
+    Sua atuação é direcionada à condução de demandas judiciais e consultivas
+    com seriedade, discrição e comprometimento, sempre buscando soluções
+    seguras e eficientes para cada cliente.
+  </p>
+
+  <p>
+    Com abordagem humanizada e atendimento próximo, desenvolve cada caso de
+    forma individualizada, compreendendo as particularidades envolvidas e
+    prezando pela transparência em todas as etapas do acompanhamento jurídico.
+  </p>
+
+  <p>
+    No Direito de Família, atua com sensibilidade e firmeza em questões que
+    exigem atenção técnica e emocional, enquanto no Direito Civil trabalha com
+    foco na proteção de direitos, prevenção de conflitos e segurança jurídica.
+  </p>
+</div>
 
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 mt-12 pt-12 border-t border-border">
