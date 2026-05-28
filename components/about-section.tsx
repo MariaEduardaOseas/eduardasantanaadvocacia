@@ -1,4 +1,4 @@
-```tsx
+
 export function AboutSection() {
   return (
     <section id="sobre" className="py-24 lg:py-32 bg-card">
