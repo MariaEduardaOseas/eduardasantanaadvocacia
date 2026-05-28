@@ -7,7 +7,7 @@ export function AboutSection() {
           <div className="relative order-2 lg:order-1">
             <div className="relative aspect-[4/5] overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop"
+                src="/IMG_2454.jpeg"
                 alt="Eduarda Santana"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
