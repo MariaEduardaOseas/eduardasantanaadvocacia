@@ -2,25 +2,21 @@ export function AboutSection() {
   return (
     <section id="sobre" className="py-24 lg:py-32 bg-card">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-       <div className="grid grid-cols-3 gap-8 mt-12 pt-12 border-t border-border">
-  <div>
-    <span className="text-xs tracking-wider uppercase text-muted-foreground">
-      Advocacia de<br />Excelência
-    </span>
-  </div>
+        <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
 
-  <div>
-    <span className="text-xs tracking-wider uppercase text-muted-foreground">
-      Condução<br />Estratégica
-    </span>
-  </div>
+          {/* Imagem */}
+          <div className="relative">
+            <div className="relative aspect-[4/5] overflow-hidden">
+              <img
+                src="/IMG_2454.jpeg"
+                alt="Eduarda Santana"
+                className="w-full h-full object-cover transition-all duration-700"
+              />
+            </div>
+          </div>
 
-  <div>
-    <span className="text-xs tracking-wider uppercase text-muted-foreground">
-      Compromisso<br />Profissional
-    </span>
-  </div>
-</div>
+          {/* Conteúdo */}
+          <div>
 
             <h2 className="font-[var(--font-cormorant)] text-3xl lg:text-5xl font-medium leading-tight text-foreground mb-8">
               Advocacia estratégica e atendimento personalizado
@@ -43,8 +39,28 @@ export function AboutSection() {
               </p>
             </div>
 
-          </div>
+            {/* Bloco inferior */}
+            <div className="grid grid-cols-3 gap-8 mt-12 pt-12 border-t border-border">
+              <div>
+                <span className="text-xs tracking-wider uppercase text-muted-foreground">
+                  Advocacia de<br />Excelência
+                </span>
+              </div>
 
+              <div>
+                <span className="text-xs tracking-wider uppercase text-muted-foreground">
+                  Condução<br />Estratégica
+                </span>
+              </div>
+
+              <div>
+                <span className="text-xs tracking-wider uppercase text-muted-foreground">
+                  Compromisso<br />Profissional
+                </span>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
     </section>
