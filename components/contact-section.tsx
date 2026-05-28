@@ -1,8 +1,8 @@
 import { Phone, Mail, Clock, Video } from "lucide-react"
 
 export function ContactSection() {
-  const whatsappNumber = "5511999999999"
-  const whatsappMessage = encodeURIComponent("Olá, Dra. Carolina! Gostaria de agendar uma consulta.")
+  const whatsappNumber = "5534998431146"
+  const whatsappMessage = encodeURIComponent("Olá, Dra. Eduarda! Gostaria de agendar uma consulta.")
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
 
   return (
