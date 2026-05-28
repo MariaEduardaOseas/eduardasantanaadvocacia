@@ -1,10 +1,13 @@
 "use client"
 
 export function WhatsAppButton() {
-  const whatsappNumber = "555534998431146"
-  const whatsappMessage = encodeURIComponent("Olá, Dra. Eduarda! Gostaria de agendar uma consulta.")
-  const whatsappLink = https://wa.me/5534998431146
+  const whatsappNumber = "5534998431146"
 
+const whatsappMessage = encodeURIComponent(
+  "Olá, Dra. Eduarda! Gostaria de agendar uma consulta."
+)
+
+const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
   return (
     <a
       href=https://wa.me/5534998431146
