@@ -37,7 +37,7 @@ export function ContactSection() {
                   <h4 className="text-sm font-medium text-foreground mb-1">Atendimento</h4>
                   <p className="text-sm text-muted-foreground">
                     Online por videoconferência<br />
-                    Presencial na sede da OAB (mediante agendamento)
+            
                   </p>
                 </div>
               </div>
@@ -49,8 +49,8 @@ export function ContactSection() {
                 <div>
                   <h4 className="text-sm font-medium text-foreground mb-1">Telefone</h4>
                   <p className="text-sm text-muted-foreground">
-                    (11) 99999-9999<br />
-                    (11) 3333-3333
+                    (34) 998431146 <br />
+                  
                   </p>
                 </div>
               </div>
@@ -62,7 +62,7 @@ export function ContactSection() {
                 <div>
                   <h4 className="text-sm font-medium text-foreground mb-1">E-mail</h4>
                   <p className="text-sm text-muted-foreground">
-                    contato@carolinamenezes.adv.br
+                    contato@eduardasantanaadvocacia.com.br
                   </p>
                 </div>
               </div>
@@ -86,11 +86,11 @@ export function ContactSection() {
           <div className="flex flex-col justify-center">
             <div className="bg-background p-8 lg:p-12 border border-border">
               <h3 className="font-[var(--font-cormorant)] text-2xl lg:text-3xl font-medium text-foreground mb-4">
-                Agende sua consulta agora
+              
               </h3>
               <p className="text-sm text-muted-foreground leading-relaxed mb-8">
-                Clique no botão abaixo para falar diretamente comigo pelo WhatsApp. 
-                Primeira consulta gratuita para análise do seu caso.
+                
+          
               </p>
 
               {/* WhatsApp CTA Button */}
@@ -107,7 +107,7 @@ export function ContactSection() {
               </a>
 
               <p className="text-xs text-center text-muted-foreground mt-6">
-                Resposta garantida em até 24 horas úteis
+                
               </p>
 
               {/* Trust badges */}
