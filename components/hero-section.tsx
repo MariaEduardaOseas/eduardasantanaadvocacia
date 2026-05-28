@@ -50,7 +50,7 @@ export function HeroSection() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta"
+            href="https://wa.me/5534998431146?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-3 px-8 py-4 bg-primary text-primary-foreground text-sm tracking-wider font-medium hover:bg-primary/90 transition-all duration-300"
