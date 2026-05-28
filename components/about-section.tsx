@@ -11,7 +11,7 @@ export function AboutSection() {
               <img
                 src="/IMG_2454.jpeg"
                 alt="Eduarda Santana"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover transition-all duration-700"
               />
 
               <div className="absolute -bottom-4 -right-4 w-full h-full border border-primary/30 -z-10" />
