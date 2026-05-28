@@ -7,7 +7,7 @@ const whatsappMessage = encodeURIComponent(
   "Olá, Dra. Eduarda! Gostaria de agendar uma consulta."
 )
 
-const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
+cconst whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
   return (
     <a
       href={whatsappLink}
