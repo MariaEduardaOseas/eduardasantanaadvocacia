@@ -69,7 +69,8 @@ prevenção de conflitos e construção de soluções seguras.
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7" />
             </svg>
           </a>
-        </div>
+              </div>
       </div>
+    </section>
   )
 }
