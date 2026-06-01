@@ -43,8 +43,8 @@ export function HeroSection() {
 
         {/* Subheading */}
         <p className="max-w-2xl mx-auto text-base lg:text-lg text-muted-foreground leading-relaxed mb-12">
-          Assessoria jurídica especializada com atendimento personalizado. 
-          Estratégias sob medida para proteger seus interesses e direitos.
+          Orientação jurídica voltada à proteção de direitos,
+prevenção de conflitos e construção de soluções seguras.
         </p>
 
         {/* CTA Buttons */}
