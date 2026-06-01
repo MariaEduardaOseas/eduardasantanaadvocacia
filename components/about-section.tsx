@@ -34,8 +34,9 @@ export function AboutSection() {
               </p>
 
               <p>
-                No Direito de Família, atua com sensibilidade e firmeza.
-                No Direito Civil, trabalha com foco na proteção de direitos e prevenção de conflitos.
+                 No Direito Civil e no Direito de Família, o trabalho é
+  desenvolvido com foco na proteção de direitos e na busca
+  das melhores estratégias para cada caso.
               </p>
             </div>
 
