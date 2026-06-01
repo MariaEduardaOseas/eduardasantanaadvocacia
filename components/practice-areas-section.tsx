@@ -101,8 +101,8 @@ export function PracticeAreasSection() {
             Áreas de Atuação
           </h2>
           <p className="max-w-2xl mx-auto text-muted-foreground leading-relaxed">
-            Atendimento especializado em diversas áreas do Direito Civil e Família, 
-            com foco em soluções personalizadas para cada cliente.
+            Atuação jurídica voltada à resolução de conflitos,
+planejamento patrimonial e proteção de direitos.
           </p>
         </div>
 
