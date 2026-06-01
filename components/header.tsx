@@ -35,10 +35,10 @@ export function Header() {
           {/* Logo */}
           <Link href="#inicio" className="group">
             <div className="flex flex-col">
-              <span className="font-serif text-xl lg:text-2xl font-medium tracking-wide text-foreground group-hover:text-primary transition-colors uppercase">
+              <span className="font-serif text-xl lg:text-4xl font-medium tracking-wide text-foreground group-hover:text-primary transition-colors uppercase">
                 Eduarda Santana
               </span>
-              <span className="text-[10px] lg:text-xs tracking-[0.3em] uppercase text-muted-foreground font-light">
+              <span className="text-[10px] lg:text-xs tracking-[0.4em] uppercase text-muted-foreground font-light">
                 Advocacia
               </span>
             </div>
